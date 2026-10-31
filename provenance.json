@@ -1,10 +1,10 @@
 {
   "sourceRepository": "https://github.com/ethereum/kohaku-rs",
-  "sourceCommit": "8db5f351f7ec27c5e202d1b62e50bb266eb65855",
+  "sourceCommit": "357104d3be2e06d91f532563f09c5a9804be088e",
   "crate": "kohaku-railgun-wasm",
   "target": "wasm32-unknown-unknown",
   "profile": "release",
   "wasmBindgenVersion": "wasm-bindgen 0.2.108",
-  "wasmSha256": "5220333e846a10c25e95329e563a4f481d7c871628f30fb361135a88000ee85e",
-  "bindingsSha256": "579d130f4244a2b57e45076a677c9207d81e4090d0bc7bb3ba94111053277e06"
+  "wasmSha256": "a1a25c6c4fd1c7195a9f1e2369c34866fdafc32678e1885c9604dc42f20ef816",
+  "bindingsSha256": "b23f2eb5989cee2ea9385082fec2d14a2bf1d95cd2b3cf8aa1db7a32bb35ec33"
 }

@@ -1,7 +1,7 @@
 # kohaku-rg-js-wrapper
 
 Node 22+ bindings for the Railgun crates in
-[`ethereum/kohaku-rs@8db5f351f7ec27c5e202d1b62e50bb266eb65855`](https://github.com/ethereum/kohaku-rs/commit/8db5f351f7ec27c5e202d1b62e50bb266eb65855).
+[`ethereum/kohaku-rs@357104d3be2e06d91f532563f09c5a9804be088e`](https://github.com/ethereum/kohaku-rs/commit/357104d3be2e06d91f532563f09c5a9804be088e).
 The npm package includes release-mode Node WASM and generated declarations. A
 consumer does not need Rust, Cargo, or `wasm-bindgen` installed.
 
@@ -120,5 +120,5 @@ refuses a different or dirty Rust revision and updates the recorded checksums.
 
 Run `npm ci`, `npm run build`, `npm test`, and `npm pack --dry-run` before
 publishing. `prepack` repeats the build, tests, and provenance checksum check.
-The package currently uses version `0.0.1`; publish only after the repository
+The package currently uses version `0.0.2`; publish only after the repository
 and npm ownership are configured.

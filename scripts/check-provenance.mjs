@@ -5,7 +5,7 @@ import { fileURLToPath } from "node:url";
 
 const root = dirname(dirname(fileURLToPath(import.meta.url)));
 const meta = JSON.parse(readFileSync(join(root, "provenance.json"), "utf8"));
-const expectedCommit = "8db5f351f7ec27c5e202d1b62e50bb266eb65855";
+const expectedCommit = "357104d3be2e06d91f532563f09c5a9804be088e";
 if (meta.sourceCommit !== expectedCommit || meta.profile !== "release") {
   throw new Error("WASM provenance does not name the pinned release source");
 }

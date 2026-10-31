@@ -1,14 +1,6 @@
 /* tslint:disable */
 /* eslint-disable */
 export const memory: WebAssembly.Memory;
-export const poisession_prepareTransferUserOpJson: (a: number, b: number, c: number, d: number, e: any, f: number, g: number, h: number, i: number, j: number, k: number) => any;
-export const poisession_prepareUnshieldUserOpJson: (a: number, b: number, c: number, d: number, e: number, f: any, g: number, h: number, i: number, j: number, k: number, l: number, m: number) => any;
-export const __wbg_railgunaddress_free: (a: number, b: number) => void;
-export const railgunaddress_allChains: (a: number) => number;
-export const railgunaddress_fromPrivateKeys: (a: any, b: any, c: any) => [number, number, number];
-export const railgunaddress_fromPublicKeys: (a: any, b: any, c: any) => [number, number, number];
-export const railgunaddress_parse: (a: number, b: number) => [number, number, number];
-export const railgunaddress_toString: (a: number) => [number, number];
 export const __wbg_chain_free: (a: number, b: number) => void;
 export const __wbg_poisession_free: (a: number, b: number) => void;
 export const chain_chainId: (a: number) => bigint;
@@ -40,6 +32,14 @@ export const shield_addErc20: (a: number, b: number, c: any, d: any) => [number,
 export const shield_addNative: (a: number, b: number, c: any) => [number, number];
 export const shield_build: (a: number) => [number, number, number];
 export const shield_new: (a: number) => number;
+export const __wbg_railgunaddress_free: (a: number, b: number) => void;
+export const railgunaddress_allChains: (a: number) => number;
+export const railgunaddress_fromPrivateKeys: (a: any, b: any, c: any) => [number, number, number];
+export const railgunaddress_fromPublicKeys: (a: any, b: any, c: any) => [number, number, number];
+export const railgunaddress_parse: (a: number, b: number) => [number, number, number];
+export const railgunaddress_toString: (a: number) => [number, number];
+export const poisession_prepareTransferUserOpJson: (a: number, b: number, c: number, d: number, e: any, f: number, g: number, h: number, i: number, j: number, k: number) => any;
+export const poisession_prepareUnshieldUserOpJson: (a: number, b: number, c: number, d: number, e: number, f: any, g: number, h: number, i: number, j: number, k: number, l: number, m: number) => any;
 export const __wbg_trap_free: (a: number, b: number) => void;
 export const trap___wbg_wasmer_trap: () => void;
 export const wasm_bindgen_c2db0c93d537ef26___closure__destroy___dyn_core_9b3796e30d99ddb7___ops__function__FnMut_____Output_______: (a: number, b: number) => void;

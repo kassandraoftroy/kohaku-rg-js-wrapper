@@ -1,6 +1,6 @@
 {
   "name": "kohaku-rg-js-wrapper",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Node.js bindings for the pinned kohaku-rs Railgun WASM wallet",
   "type": "commonjs",
   "engines": {

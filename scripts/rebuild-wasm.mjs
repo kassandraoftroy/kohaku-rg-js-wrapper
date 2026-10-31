@@ -5,7 +5,7 @@ import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = dirname(dirname(fileURLToPath(import.meta.url)));
-const commit = "8db5f351f7ec27c5e202d1b62e50bb266eb65855";
+const commit = "357104d3be2e06d91f532563f09c5a9804be088e";
 const source = process.env.KOHAKU_RS_DIR
   ? resolve(process.env.KOHAKU_RS_DIR)
   : join(root, ".cache", "kohaku-rs");
