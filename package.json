@@ -1,0 +1,38 @@
+{
+  "name": "kohaku-rg-js-wrapper",
+  "version": "0.0.1",
+  "description": "Node.js bindings for the pinned kohaku-rs Railgun WASM wallet",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=22"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.js",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist/",
+    "vendor/wasm/kohaku_railgun_wasm.js",
+    "vendor/wasm/kohaku_railgun_wasm.d.ts",
+    "vendor/wasm/kohaku_railgun_wasm_bg.wasm",
+    "vendor/wasm/kohaku_railgun_wasm_bg.wasm.d.ts",
+    "provenance.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "build:wasm": "node scripts/rebuild-wasm.mjs",
+    "test": "node --test tests/*.test.cjs",
+    "prepack": "npm run build && npm test && node scripts/check-provenance.mjs"
+  },
+  "devDependencies": {
+    "typescript": "5.9.2"
+  },
+  "license": "MIT"
+}
